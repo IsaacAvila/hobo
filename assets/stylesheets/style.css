@@ -10,6 +10,7 @@ body{
   height: 100%;
   width: 100%;
   text-align: center;
+  font-family: Helvetica;
 }
 
 .title {
@@ -22,12 +23,21 @@ body{
 
 .center-content {
   margin-top: 15%;
-  background-color: transparent;
+  background-color: transparent; 
+}
+
+/* header */
+#link {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 8px;
 }
 
 /* parallax */
 #hobo, 
-#hobbiesp{
+#hobbiesp,
+#doingp{
 	display: inline-block;
 	position: relative;
 	opacity: 0.65;
@@ -42,14 +52,28 @@ body{
 
 #hobo {
 	background-image: url("/assets/images/hb.jpg");
+	
+}
+
+#hobbiesp {
+  background-image: url("/assets/images/hb2.jpg");
+}
+
+#doingp {
+  background-image: url("/assets/images/hb3.jpg");
 }
 
 /* who-is */
-#who-is {
+#who-is, #hobbies {
 	padding: 50px 80px;
 }
 
 /* hobbies */
-#hobbiesp {
-  background-image: url("/assets/images/hb2.jpg");
+#hobbies {
+	background-color: #282E34;
+  color: #ddd;
+}
+
+.hobbie {
+	margin-bottom: 30px;
 }
